@@ -82,3 +82,35 @@ header nav ul li a:hover {
   max-width: 600px;
   border-radius: 10px;
 }
+/* Quotes Section */
+.quotes {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5rem 3rem;
+  background-color: #ffffff; /* طبق اللون من Figma */
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.quotes .quote {
+  background-color: #f0f0f0; /* طبق اللون من Figma */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.quotes .quote p {
+  font-size: 1.1rem;
+  color: #222; /* طبق اللون */
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.quotes .quote span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555; /* طبق اللون */
+}
